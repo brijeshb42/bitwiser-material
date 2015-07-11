@@ -5,7 +5,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "keywords:"
   Put website description for your home page. (about 50 words or more).
 keywords: "some, relevant, keywords, for, usage, in metatags"
-url: "http://bitwiser.in" # the base hostname & protocol for your site
+url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 paginate: 5
 paginate_path: "page:num"
