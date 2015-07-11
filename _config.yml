@@ -1,0 +1,33 @@
+# Site settings
+## Change the values as needed.
+title: Bitwiser-Material
+email: your-email@domain.com
+description: > # this means to ignore newlines until "keywords:"
+  Put website description for your home page. (about 50 words or more).
+keywords: "some, relevant, keywords, for, usage, in metatags"
+url: "http://bitwiser.in" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: username
+  twitter: username
+  email: username@gmail.com
+  github: username
+exclude:
+  - bower_components
+  - README.md
+full_name: Brijesh
+
+##set this to enable disqus commenting
+#disqus: forumname
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
