@@ -19,7 +19,7 @@ links:
   facebook: username
   twitter: username
   email: username@gmail.com
-  github: username
+  github: brijeshb42/bitwiser-material/
 exclude:
   - bower_components
   - README.md
