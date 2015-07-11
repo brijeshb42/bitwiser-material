@@ -10,7 +10,7 @@ layout: base
       <h1><a href="{{page.url}}">{{ page.title }}</a></h1>
     </header>
     <div class="mui-container-fluid post-content">
-      <p class="post-meta">by <a href="{{ site.url }}">{{ site.full_name }}</a> on <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}
+      <p class="post-meta">by <a href="{{ site.url }}">{% if page.author %}{{ page.author }}{% else %}{{ site.full_name }}{% endif %}</a> on <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
       <span class="sharer">
         Share on: 
         <a class="sh-fb" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook fa-lg"></i></a>
