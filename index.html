@@ -11,7 +11,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         {% if post.cover %}<div class="img-overlay"></div>{% endif %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="overlay"></a>
+        <a href="{{ post.url | prepend: site.url }}" class="overlay"></a>
       </div>
       <div class="post-data">
         <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
