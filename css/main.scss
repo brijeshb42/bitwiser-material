@@ -40,6 +40,10 @@ i.fa {
     margin-right: 5px;
 }
 
+.mui-container {
+    max-width: 800px;
+}
+
 .site-appbar {
     background-color: mui-color("indigo", "500");
     left: 0;
@@ -97,8 +101,24 @@ i.fa {
 }
 
 .post-content {
+    position: relative;
+    top: 135px;
+
     .post-meta {
         padding: 10px 0 10px 5px;
+    }
+
+    .article-title {
+        border-bottom: 1px solid mui-color('blue-grey','400');
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 50px;
+        padding-bottom: 10px;
+        text-align: center;
+
+        a {
+            color: #111;
+        }
     }
 }
 
@@ -141,7 +161,7 @@ article {
     -webkit-background-size: cover;
     background-color: mui-color('blue-grey', '500');
     background-size: cover;
-    min-height: 150px;
+    min-height: 180px;
     position: relative;
 
     a {
@@ -183,8 +203,14 @@ article {
 }
 
 .post-full {
+    position: relative;
+
     .bg-holder {
-        min-height: 200px;
+        left: 0;
+        min-height: 250px;
+        position: fixed;
+        right: 0;
+        top: 0;
 
         h1 {
             bottom: 25px;
