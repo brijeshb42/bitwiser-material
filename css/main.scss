@@ -109,15 +109,19 @@ i.fa {
     }
 
     .article-title {
-        border-bottom: 1px solid mui-color('blue-grey','400');
         font-size: 45px;
         font-weight: bold;
         line-height: 50px;
         padding-bottom: 10px;
-        text-align: center;
+        transition: all 0.3s ease-in;
 
         a {
             color: #111;
+
+            &:hover {
+                color: #08c;
+                text-decoration: none;
+            }
         }
     }
 }
