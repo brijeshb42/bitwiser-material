@@ -2,7 +2,7 @@
 ## Change the values as needed.
 title: Bitwiser-Material
 email: brijeshb42@gmail.com
-description: > A jekyll theme implementing material design by using muicss.
+description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
 url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
