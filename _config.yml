@@ -1,9 +1,9 @@
 # Site settings
 ## Change the values as needed.
-title: Recalbox
-email: brijeshb42@gmail.com
-description: "A jekyll theme implementing material design by using muicss."
-keywords: "jekyll, theme, material, muicss"
+title: Recalblog
+email: mika@recalbox.com
+description: "Blog about recalbox-os, retrogaming and fun"
+keywords: "retrogaming, retro, recalbox, recalbox-os"
 url: "https://blog.geekael.fr"
 baseurl: "" # the subpath of your site, e.g. /blog/
 paginate: 5
@@ -17,7 +17,7 @@ sass:
 links:
   facebook: Recalbox
   twitter: Recalbox
-  email: Recalbox
+  email: mika@recalbox.com
   github: Recalbox/recalbox-os/
 full_name: Recalbox
 exclude: ["bower_components","less","node_modules","Gruntfile.js","package.json","README.md"]

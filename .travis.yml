@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.3.1
+install:
+- "./bin/setup"
+script:
+- bundle exec jekyll build --trace
+- bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+after_success:
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && "./bin/automated"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - USERNAME: MikaXII
+  - EMAIL: mikael.joubert@outlook.com
+  - secure: RwKeNLGkAr12t66ZSC5JEWt9e1Xp73ppgdeMaXMG5XJKlPlPbcZP1u8whzIdRwk0BPF3moxjJjstVseFsiK5Ckp9+An3N9M/mvmXqMEnFFZctmatqYtSZTtKQHPBoHJIWiEulqd4lO3IMYZsqVcBn7RUuwSz5zFs5sAQDTQVff7S/XXZcoP1IEVIiKxQiLRABPJM1e6UxfgD2MyElq+0vue1vA0gxoI8LkXZ3S8b2Sc9p5S172ra26Ln0ZdfFQ7GE7oUEjivaQfiRzv8RkaZuumZbZWK6E7aayAa0veowDq/PiPi5mtkIZE1xuKxAKq2f4O5oqJOxtsFXqBy8coLvKAxfj5+tZqg+bdVc9iwn6RCYZPtujDFpg6jzhRLfI+mbNiN0SOwXtURmsEbIi3I2Ysm/DnDDDvPP/iH6fhEQhwTtkt05BY54udgbVSUhoZi1epJ5/LqaO+fXEpavV2WW5AZcB/H72k7P3De3Bzacv0O2rQqPoy5O2lapH8M1uIq7WnBx39JYC5bjatL/00p7ly20fJYXdrNf0gFYOkOYeWGac6No0CtpTxVlIOPdh0Z5eBPq1cvjkl599UTwDhOr7DnZkl0Fcb9+m4ISMmO/RbaSHXpMTfBMk0KmEDixfmzgRMjeycJHWz/diThvYDrNq4BeAqdLsXGKoQ0YPIg+F0=
