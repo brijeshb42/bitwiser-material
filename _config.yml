@@ -1,6 +1,6 @@
 # Site settings
 ## Change the values as needed.
-title: Rec
+title: Recalbox
 email: brijeshb42@gmail.com
 description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
@@ -19,11 +19,8 @@ links:
   twitter: Recalbox
   email: Recalbox
   github: Recalbox/recalbox-os/
-exclude:
-  - bower_components
-  - README.md
 full_name: Recalbox
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["bower_components","less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
 languages: ["en","fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
