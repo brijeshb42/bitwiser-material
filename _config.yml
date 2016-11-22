@@ -1,10 +1,10 @@
 # Site settings
 ## Change the values as needed.
-title: Recalbox
+title: Rec
 email: brijeshb42@gmail.com
 description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
-url: "http://yourdomain.com"
+url: "https://blog.geekael.fr"
 baseurl: "" # the subpath of your site, e.g. /blog/
 paginate: 5
 paginate_path: "page:num"
