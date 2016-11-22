@@ -1,7 +1,7 @@
 ---
 layout: post
 color: deep-purple
-cover: "http://s3-ap-southeast-1.amazonaws.com/monster-machine/images/horssghonr-1436272011-Midas.jpg"
+cover: "https://s3-ap-southeast-1.amazonaws.com/monster-machine/images/horssghonr-1436272011-Midas.jpg"
 title:  "Welcome to Jekyll!"
 date:   2015-07-11 13:50:39
 categories: jekyll update
@@ -22,6 +22,6 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-[jekyll]:      http://jekyllrb.com
+[jekyll]:      https://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

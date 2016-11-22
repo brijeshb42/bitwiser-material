@@ -6,7 +6,7 @@
 
 
 // Width of the content area
-$content-width:    700px;
+$content-width: 800px;
 
 
 
@@ -34,6 +34,9 @@ $content-width:    700px;
 
 body {
     padding-top: 93px;
+    background-color:#34495e;
+    background-image: url("/img/footer-stars.png");
+    
 }
 
 i.fa {
@@ -41,11 +44,16 @@ i.fa {
 }
 
 .mui-container {
+  //  margin-top: 200px;
     max-width: 800px;
 }
 
 .site-appbar {
-    background-color: mui-color("indigo", "500");
+    background-color:#34495e;
+  //  background-color: mui-color("indigo", "500");
+    //background-image:url(/img/recalbox-cover.jpg);
+    //background-size: cover; 
+    //height: 250px;
     left: 0;
     margin-bottom: 15px;
     overflow: auto;
@@ -62,6 +70,7 @@ i.fa {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 
     li {
         display: inline-block;

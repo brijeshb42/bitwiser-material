@@ -1,32 +1,31 @@
 # Site settings
 ## Change the values as needed.
-title: Bitwiser-Material
-email: brijeshb42@gmail.com
-description: "A jekyll theme implementing material design by using muicss."
-keywords: "jekyll, theme, material, muicss"
-#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
-url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+title: Recalblog
+email: mika@recalbox.com
+description: "Blog about recalbox-os, retrogaming and fun"
+keywords: "retrogaming, retro, recalbox, recalbox-os"
+url: "https://blog.geekael.fr"
 baseurl: "" # the subpath of your site, e.g. /blog/
 paginate: 5
 paginate_path: "page:num"
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
 links:
-  facebook: brijeshb42
-  twitter: brijeshb42
-  email: brijeshb42@gmail.com
-  github: brijeshb42/bitwiser-material/
-exclude:
-  - bower_components
-  - README.md
-full_name: Brijesh
-
+  facebook: Recalbox
+  twitter: Recalbox
+  email: mika@recalbox.com
+  github: Recalbox/recalbox-os/
+full_name: Recalbox
+exclude: ["bower_components","less","node_modules","Gruntfile.js","package.json","README.md"]
+gems: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
+languages: ["en","fr"]
+exclude_from_localizations: ["javascript", "images", "css"]
 ##set this to enable disqus commenting
-disqus: bitwiser
+#disqus: bitwiser
 
 ##set this to enable google analytics
 #ga_id: analyticsID
